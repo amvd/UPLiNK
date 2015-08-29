@@ -9,3 +9,5 @@ autopublish
 insecure
 urigo:angular
 angularui:angular-ui-router
+accounts-password
+accounts-ui

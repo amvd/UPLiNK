@@ -1,0 +1,37 @@
+<img src="#" alt="Team Cover Image">
+
+<nav>
+	<ul>
+		<li>About</li>
+		<li>Members</li>
+		<li>Gallery</li>
+		<li>Events</li>
+		<li class="highlighted">Donate</li>
+	</ul>
+</nav>
+
+<!-- progress bar for amount raised -->
+
+<!-- social media buttons -->
+
+<div id="team-main">
+
+	<h2>About:</h2>
+
+	<p ng-bind="team.about"></p>
+
+	<div id="team-updates">
+		<ul>
+			<li ng-repeat="update in team.updates"></li>
+		</ul>
+	</div>
+
+	<div id="team-recent-events">
+		<ul>
+			<li ng-repeat="event in team.recent"></li>
+		</ul>		
+	</div>
+
+	<!-- twitter feed? -->
+	
+</div>

@@ -1,0 +1,38 @@
+<div>
+	
+	<div id="home-news-hq">
+		<ul>
+			<li ng-repeat="hqUpdate in hqUpdates">
+				<h3>{{ hqUpdate.title }}</h3>
+			</li>
+		</ul>
+	</div>
+
+	<div id="home-leaderboard">
+		<ol>
+			<li ng-repeat="leader in leaderboard">{{leader.name}} - {{leader.amount}}</li>
+		</ol>		
+	</div>
+
+	<div id="home-upcoming-events">
+		<ul>
+			<li ng-repeat="event in upcoming">
+				<h3>{{ event.title }}</h3>
+			</li>
+		</ul>
+	</div>
+
+	<div id="home-team-activity">
+		<ul>
+			<li ng-repeat="item in activity">
+				<h3>{{ item.blurb }}</h3>				
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+
+</div>

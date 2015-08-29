@@ -1,0 +1,49 @@
+<img src="#" alt="event cover photo">
+
+<div id="event_sidebar">
+	<h3 ng-bind="'Date: ' + event.date"></h3>
+
+	<h3>Location:</h3>
+	<p ng-bind="event.location"></p>
+
+	// Map?
+
+	<h3>Attending:</h3>
+
+	<ul>
+		<li ng-repeat="attendee in event.attending">
+			{{ attendee.name }}
+		</li>
+	</ul>
+
+	<button>Invite Member</button>
+
+	<button>Share on Facebook</button>
+
+</div>
+
+<div id="main_event_info">
+
+<h1 ng-bind="event.title"></h1>
+
+// social media buttons
+
+<h2 ng-bind="'Host Team: ' + event.host"></h2>
+
+<h3>Details:</h3>
+
+<p ng-bind="event.details"></p>
+
+<h3>Photos:</h3>
+
+// photo stream
+
+<h3>Invite Users:</h3>
+
+<textarea></textarea>
+
+<h3>Invite via Email:</h3>
+
+<textarea></textarea>
+
+</div>
