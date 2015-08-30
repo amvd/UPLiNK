@@ -1,19 +1,21 @@
+<button ui-sref="home">Back to Home</button>
+
 <img src="#" alt="profile pic">
 
 <div>
 	<a href="/profile/{{currentUser._id}}/edit">Edit Profile</a>
 </div>
 
-<h1 ng-bind="'Name: ' + user.name"></h1>
-<p ng-bind="'Tagline: ' + user.tagline"></p>
+<h1 ng-bind="'Name: ' + user.profile.first_name + ' ' + user.profile.last_name"></h1>
+<p ng-bind="'Tagline: ' + user.profile.tagline"></p>
 
-<p ng-bind="'Team: ' + user.team"></p>
+<p ng-bind="'Team: ' + user.profile.location"></p>
 
 <h3>About</h3>
 
-<p ng-bind="user.about"></p>
+<p ng-bind="user.profile.about"></p>
 
-<p ng-bind="'Favorite LiNK Experience: ' + user.fav_experience"></p>
+<p ng-bind="'Favorite LiNK Experience: ' + user.profile.fav_experience"></p>
 
 <h3>Upcoming Events</h3>
 

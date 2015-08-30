@@ -1,8 +1,10 @@
 angular.module("uplink").controller("profileCreateCtrl", function($scope, $meteor, $stateParams){
 
-	$scope.user = Meteor.users.find({_id: userId});
-
 	var userId = $stateParams.userId;
+
+	$scope.user = Meteor.users.findOne({_id: $stateParams.userId});
+
+	
 
 	console.log("User Id:", userId);
 

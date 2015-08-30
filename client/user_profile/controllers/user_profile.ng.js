@@ -6,6 +6,6 @@ angular.module("uplink").controller("profileCtrl", function($scope, $meteor, $st
 
 	console.log("Root User:", $rootScope.currentUser);
 
-
+	$scope.user = Meteor.users.findOne({_id: $stateParams.userId});
 
 })  
