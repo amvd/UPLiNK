@@ -1,0 +1,16 @@
+.jumbo-container {
+	background: url(/images/1.png) no-repeat center center;
+	height: 600px;
+}
+
+.main-jumbo {
+	margin: 120px auto;
+	width: 70%;
+	background-color: rgba(245, 245, 245, 0.85);
+/*	text-align: center;*/
+}
+
+.cover-logo {
+	max-height: 100%;
+	max-width: 100%;
+}
