@@ -4,23 +4,23 @@
 
 	<p>
 		Rescue Team Location:
-		<select ng-model="user.location" ng-options="team in rescueTeams"></select>
+		<!-- <select ng-model="user.profile.location" ng-options="team in rescueTeams"></select> -->
 	</p>
 
 	<p>Profile Picture Upload: <input type="file"></p>
 
-	<p>First Name: <input type="text" ng-model="user.first_name"></p>
+	<p>First Name: <input type="text" ng-model="user.profile.first_name"></p>
 
-	<p>Last Name: <input type="text" ng-model="user.last_name"></p>
+	<p>Last Name: <input type="text" ng-model="user.profile.last_name"></p>
 
-	<p>Tagline (brief description): <input type="text" ng-model="user.tagline"></p>
+	<p>Tagline (brief description): <input type="text" ng-model="user.profile.tagline"></p>
 
 	<p>About You</p>
 
-	<textarea ng-model="user.about"></textarea>
+	<textarea ng-model="user.profile.about"></textarea>
 
 
-	<button>Save</button>
+	<button ng-click="saveUser()">Save</button>
 
 
 

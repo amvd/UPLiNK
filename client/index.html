@@ -5,6 +5,9 @@
 <body ng-app="uplink">
 	<div>
 		<meteor-include src="loginButtons"></meteor-include>
+		<ul>
+			<li ng-if="currentUser"><a href="/profile/{{currentUser._id}}">Profile</a></li>
+		</ul>
 	</div>
 	
 	<div ui-view></div>

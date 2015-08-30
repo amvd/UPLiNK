@@ -16,7 +16,12 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 		.state("profile_edit", {
 			url:"/profile/:userId/edit",
 			templateUrl: "client/user_profile/views/profile_create.ng.html",
-			controller: "profileCreateCtrl"
+			controller: "profileCreateCtrl",
+			resolve: {
+				"user": function($meteor){
+					return $meteor.requireUser();
+				}
+			}
 		})
 		.state("profile",{
 			url:"/profile/:userId",
