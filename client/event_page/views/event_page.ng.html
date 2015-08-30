@@ -1,51 +1,80 @@
-<a href="/home">Back to Home</a>
+<div>
+	<a href="/home">Back to Home</a>
+</div>
 
 <img src="#" alt="event cover photo">
 
-<div id="event_sidebar">
-	<h3 ng-bind="'Date: ' + event.date"></h3>
+<div class="row">
 
-	<h3>Location:</h3>
-	<p ng-bind="event.location"></p>
+	<div id="main_event_info" class="col-md-8">
+		<div class="panel panel-default">
+			<div class="panel-body">
 
-	<!-- Map? -->
+				<h2 ng-bind="event.title"></h2>
 
-	<h3>Attending:</h3>
+				<!-- social media buttons -->
 
-	<ul>
-		<li ng-repeat="attendee in event.attending">
-			{{ attendee.name }}
-		</li>
-	</ul>
+				<div>Host: <strong ng-bind="event.host + ' Rescue Team'"></strong></div>
+			</div>
+		</div>
 
-	<button>Invite Member</button>
+		<div class="panel panel-default">
+			<div class="panel-heading">Details</div>
+			<div class="panel-body">
+				<div>
+					<p ng-bind="event.details"></p>
+				</div>
+			</div>
+		</div>
 
-	<button>Share on Facebook</button>
+		<div class="panel panel-default">
+			<div class="panel-heading">Media and Invites</div>
+			<div class="panel-body">
+				<div>Photos:</div>
 
-</div>
+				<!-- photo stream -->
 
-<div id="main_event_info">
+				<div>Invite Users:</div>
 
-<h1 ng-bind="event.title"></h1>
+				<textarea></textarea>
 
-<!-- social media buttons -->
+				<div>Invite via Email:</div>
 
-<h2 ng-bind="'Host Team: ' + event.host"></h2>
+				<textarea></textarea>
+			</div>
+		</div>
+	</div>
 
-<h3>Details:</h3>
+	<div id="event_sidebar" class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-body">
 
-<p ng-bind="event.details"></p>
+				<div>
+					<a href="/event/{{event._id}}/edit">Update Event</a>
+				</div>
 
-<h3>Photos:</h3>
+				<h4><strong>{{ event.date | date: 'MMMM d, yyyy @ h:mm a' }}</strong></h4>
 
-<!-- photo stream -->
+				<div>
+					<div>Location:</div>
+					<p ng-bind="event.location"></p>
+				</div>
 
-<h3>Invite Users:</h3>
+				<!-- Map? -->
 
-<textarea></textarea>
+				<div>Attending:</div>
 
-<h3>Invite via Email:</h3>
+				<ul>
+					<li ng-repeat="attendee in event.attending">
+						{{ attendee.name }}
+					</li>
+				</ul>
 
-<textarea></textarea>
+				<button>Invite Member</button>
+
+				<button>Share on Facebook</button>
+			</div>
+		</div>
+	</div>
 
 </div>

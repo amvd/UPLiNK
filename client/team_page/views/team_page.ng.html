@@ -1,25 +1,44 @@
-<img src="#" alt="Team Cover Image">
+<img src="#" alt="Team Cover Image" width="100%">
+
+
+
+
+
+<div class="row">
+	<div class="col-md-8">
+		<h1 ng-bind="team.location + ' Rescue Team'"></h1>
+	</div>
+	<div class="col-md-4">
+		<a href="/team/{{team._id}}/edit">Edit Page</a>
+	</div>
+</div>
+
+<div class="progress">
+	<div class="progress-bar-danger" role="progressbar" aria-valuenow="{{team.currentRaised}}" aria-valuemin="0" aria-valuemax="{{team.goal}}" style="width:{{Math.round(100*team.currentRaised/team.goal)}}%">
+		<center>
+			<span ng-bind="'$' + team.currentRaised + ' raised of $' + team.goal + ' goal'"></span>
+		</center>
+	</div>
+</div>
 
 <div>
-	<ul>
-		<li>Members</li>
+	<ul class="nav nav-pills">
+		<li><a href="#">Members</a></li>
 		<li ng-if="team.instagram_link"><a href="{{team.instagram_link}}">Instagram</a></li>
-		<li>Events</li>
+		<li><a href="#">Events</a></li>
 		<li class="highlighted"><a href="http://www.libertyinnorthkorea.org/donate/">Donate</a></li>
 	</ul>
 </div>
 
-<a href="/team/{{team._id}}/edit">Edit Page</a>
-
-<!-- progress bar for amount raised -->
-
 <!-- social media buttons -->
 
-<div id="team-main">
+<div id="team-main" class="panel panel-default">
 
-	<h2>About:</h2>
+	<div class="panel-heading">About</div>
 
-	<p ng-bind="team.about"></p>
+	<div class="panel-body">
+		<span ng-bind="team.about"></span>
+	</div>
 
 	<div id="team-updates">
 		<ul>
