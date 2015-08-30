@@ -1,30 +1,44 @@
-<button ui-sref="home">Back to Home</button>
+<a href="/home">Back to Home</a>
 
-<img src="#" alt="profile pic">
-
-<div>
-	<a href="/profile/{{currentUser._id}}/edit">Edit Profile</a>
+<div class="row">
+	<div class="col-md-4">
+		<img src="#" alt="profile pic">
+	</div>
+	<div class="col-md-8">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h1 ng-bind="user.profile.first_name + ' ' + user.profile.last_name"></h1>
+				<p ng-bind="user.profile.tagline"></p>
+				<p>Team Location: <span ng-bind="user.profile.location"></span></p>
+				<div ng-if="currentUser._id == user._id">
+					<a href="/profile/{{currentUser._id}}/edit">Edit Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<p>Name:</p>
-<h1 ng-bind="user.profile.first_name + ' ' + user.profile.last_name"></h1>
-<p ng-bind="'Tagline: ' + user.profile.tagline"></p>
+<div class="row">
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				Events
+			</div>
+			<div class="panel-body">
+				// Upcoming Events
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="panel panel-default">
+			<div class="panel-heading"><span ng-bind="'About ' + user.profile.first_name"></span></div>
+			<div class="panel-body"><span ng-bind="user.profile.about"></span></div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">Favorite LiNK Experience</div>
+			<div class="panel-body"><span ng-bind="user.profile.experience"></span></div>
+		</div>
+	</div>
+</div>
 
-<h3>Rescue Team Location</h3>
-<p ng-bind="user.profile.location"></p>
 
-<h3>About</h3>
-
-<p ng-bind="user.profile.about"></p>
-
-<h3>Favorite LiNK Experience</h3>
-
-<p ng-bind="user.profile.fav_experience"></p>
-
-<h3>Upcoming Events</h3>
-
-// Upcoming Events
-
-<h3>Past Events</h3>
-
-// Past Events

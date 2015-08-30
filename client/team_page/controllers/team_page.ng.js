@@ -4,6 +4,8 @@ angular.module("uplink").controller("teamPageCtrl", function($scope, $meteor, $s
 
 	$scope.team = $meteor.object(Teams, $stateParams.teamId);
 
+	$scope.Math = window.Math;
+
 	
 
 });

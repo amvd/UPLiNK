@@ -1,50 +1,84 @@
 <div>
-	Home
-
-	<button ui-sref="team_create">Create Rescue Team</button>
-
-	<button ui-sref="event_create">Schedule Event</button>
-
-	<div id="home-news-hq">
-		<h2>Updates From HQ</h2>
-		<ul>
-			<li ng-repeat="hqUpdate in hqUpdates">
-				<h3>{{ hqUpdate.title }}</h3>
-			</li>
-		</ul>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="panel">
+				<div class="panel-body" ng-bind="'Welcome, ' + currentUser.profile.first_name + '.'"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<button class="btn btn-danger" ui-sref="team_create">Create Rescue Team</button>
+			<button class="btn btn-danger" ui-sref="event_create">Schedule Event</button>
+		</div>
 	</div>
 
-	<div id="home-leaderboard">
-		<h2>Leaderboard</h2>
-		<ol>
-			<li ng-repeat="leader in leaderboard">{{leader.name}} - {{leader.amount}}</li>
-		</ol>		
+	<div class="row">
+		<div class="col-md-6">
+			<div id="home-news-hq" class="panel panel-default">
+				<div class="panel-heading">Updates From HQ</div>
+				<div class="panel-body">
+					<ul>
+						<li ng-repeat="hqUpdate in hqUpdates">
+							<h3>{{ hqUpdate.title }}</h3>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div id="home-upcoming-events" class="panel panel-default">
+				<div class="panel-heading">Upcoming Events</div>
+				<div class="panel-body">
+					<ul>
+						<li ng-repeat="event in events">
+							{{ event.date  | date: 'MMMM d, yyyy @ h:mm a' }} - <a href="/event/{{event._id}}">{{ event.title }}</a> - {{ event.host }} Rescue Team
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div id="home-team-activity" class="panel panel-default">
+				<div class="panel-heading">Recent Activity</div>
+				<div class="panel-body">
+					<ul>
+						<li ng-repeat="item in activity">
+							<h3>{{ item.blurb }}</h3>				
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div id="home-leaderboard" class="panel panel-default">
+				<div class="panel-heading">Leaderboard</div>
+				<div class="panel-body">
+					<ol>
+						<li ng-repeat="leader in leaderboard">{{leader.name}} - {{leader.amount}}</li>
+					</ol>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div id="home-team-list" class="panel panel-default">
+				<div class="panel-heading">List of Teams</div>
+				<div class="panel-body">
+					<ul>
+						<li ng-repeat="team in teams"><a href="/team/{{team._id}}">{{team.location}}</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
-	<div id="home-upcoming-events">
-		<h2>Upcoming Events</h2>
-		<ul>
-			<li ng-repeat="event in events">
-				<h3>{{ event.date  | date: 'MMMM d, yyyy @ h:mm a' }} - <a href="/event/{{event._id}}">{{ event.title }}</a></h3>
-			</li>
-		</ul>
-	</div>
+	
 
-	<div id="home-team-activity">
-		<h2>Recent Activity</h2>
-		<ul>
-			<li ng-repeat="item in activity">
-				<h3>{{ item.blurb }}</h3>				
-			</li>
-		</ul>
-	</div>
-
-	<div id="home-team-list">
-		<h2>List of Teams</h2>
-		<ul>
-			<li ng-repeat="team in teams"><a href="/team/{{team._id}}">{{team.location}}</a></li>
-		</ul>
-	</div>
+	
 
 
 

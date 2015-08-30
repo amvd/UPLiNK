@@ -15,9 +15,13 @@ angular.module("uplink").controller("eventCreateCtrl", function($scope, $meteor,
 		$scope.event = {};
 	}
 
+	$scope.cancel = function(){
+		$state.go("home");
+	}
+
 });
 
-angular.module("uplink").controller("eventEditCtrl", function($scope, $meteor, $state){
+angular.module("uplink").controller("eventEditCtrl", function($scope, $meteor, $state, $stateParams){
 
 	$scope.event = $meteor.object(Events, $stateParams.eventId);
 
@@ -28,12 +32,16 @@ angular.module("uplink").controller("eventEditCtrl", function($scope, $meteor, $
 	$scope.saveEvent = function(event){
 		$scope.events.save(event);
 		alert("Event saved!");
-		$state.go("home");
+		$state.go("event_page", {eventId: $scope.event._id});
 		return;
 	}
 
 	$scope.reset = function(){
 		$scope.event.reset();
+	}
+
+	$scope.cancel = function(){
+		$state.go("event_page", {eventId: $scope.event._id});
 	}
 
 });

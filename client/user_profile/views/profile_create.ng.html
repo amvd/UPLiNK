@@ -4,7 +4,7 @@
 
 	<p>
 		Rescue Team Location:
-		<!-- <select ng-model="user.profile.location" ng-options="team in rescueTeams"></select> -->
+		<select ng-model="user.profile.location" ng-options="team.location as team.location for team in teams"></select>
 	</p>
 
 	<p>Profile Picture Upload: <input type="file"></p>
@@ -25,7 +25,7 @@
 
 	<button ng-click="saveUser()">Save</button>
 
-	<a href="/profile/{{user._id}}">Back to Profile</a>
+	<a href="/profile/{{ user._id }}">Back to Profile</a>
 
 
 

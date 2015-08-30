@@ -4,6 +4,8 @@ angular.module("uplink").controller("teamCreateCtrl", function($scope, $meteor, 
 
 	$scope.locations = $meteor.collection(Locations);
 
+	$scope.Math = window.Math;
+
 	$scope.saveTeam = function(team){
 		$scope.teams.save(team);
 		alert("Team Saved!");
@@ -26,12 +28,14 @@ angular.module("uplink").controller("teamEditCtrl", function($scope, $meteor, $s
 
 	$scope.locations = $meteor.collection(Locations);
 
+	$scope.Math = window.Math;
+
 	$scope.reset = function(){
 		$scope.team.reset();
 	}
 
 	$scope.saveTeam = function(team){
-		$scope.teams.save(team);
+		$scope.team.save();
 		alert("Team Saved!");
 		$state.go("home");
 		return;
