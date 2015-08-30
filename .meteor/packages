@@ -10,5 +10,5 @@ insecure
 urigo:angular
 angularui:angular-ui-router
 accounts-password
-accounts-ui
 twbs:bootstrap
+ian:accounts-ui-bootstrap-3
