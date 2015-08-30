@@ -16,12 +16,7 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 		.state("profile_edit", {
 			url:"/profile/:userId/edit",
 			templateUrl: "client/user_profile/views/profile_create.ng.html",
-			controller: "profileCreateCtrl",
-			resolve: {
-				"user": function($meteor){
-					return $meteor.requireUser();
-				}
-			}
+			controller: "profileCreateCtrl"
 		})
 		.state("profile",{
 			url:"/profile/:userId",
@@ -30,16 +25,16 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 		})
 		.state("team_create", {
 			url:"/team/create",
-			templateUrl: "/client/team_page/views/team_page_create.ng.html",
-			controller: "teamCreateCtrl",
+			templateUrl: "client/team_page/views/team_page_create.ng.html",
+			controller: "teamCreateCtrl"
 		})
 		.state("team_edit", {
 			url: "/team/:teamId/edit",
-			templateUrl: "/client/team_page/views/team_page_create.ng.html",
+			templateUrl: "client/team_page/views/team_page_create.ng.html",
 			controller: "teamEditCtrl"
 		})
 		.state("team_page", {
-			url: "/team/:teamId",
+			url: "team/:teamId",
 			templateUrl: "/client/team_page/views/team_page.ng.html",
 			controller: "teamPageCtrl"
 		})

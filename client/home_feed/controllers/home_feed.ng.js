@@ -2,6 +2,6 @@ angular.module("uplink").controller("homeCtrl", function($scope, $meteor, $rootS
 
 	console.log("Root User:", $rootScope.currentUser);
 
-
+	$scope.teams = $meteor.collection(Teams);
 
 });

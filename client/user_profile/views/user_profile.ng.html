@@ -6,16 +6,20 @@
 	<a href="/profile/{{currentUser._id}}/edit">Edit Profile</a>
 </div>
 
-<h1 ng-bind="'Name: ' + user.profile.first_name + ' ' + user.profile.last_name"></h1>
+<p>Name:</p>
+<h1 ng-bind="user.profile.first_name + ' ' + user.profile.last_name"></h1>
 <p ng-bind="'Tagline: ' + user.profile.tagline"></p>
 
-<p ng-bind="'Team: ' + user.profile.location"></p>
+<h3>Rescue Team Location</h3>
+<p ng-bind="user.profile.location"></p>
 
 <h3>About</h3>
 
 <p ng-bind="user.profile.about"></p>
 
-<p ng-bind="'Favorite LiNK Experience: ' + user.profile.fav_experience"></p>
+<h3>Favorite LiNK Experience</h3>
+
+<p ng-bind="user.profile.fav_experience"></p>
 
 <h3>Upcoming Events</h3>
 
