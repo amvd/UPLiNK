@@ -1,3 +1,2 @@
-angular.module("uplink", ["angular-meteor", "ui.router"]);
-
+angular.module("uplink", ["angular-meteor", "ui.router", "uiGmapgoogle-maps"]);
 
