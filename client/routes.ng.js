@@ -44,16 +44,17 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 			templateUrl: "client/event_page/views/event_create.ng.html",
 			controller: "eventEditCtrl"
 		})
+		.state("event_create", {
+			url: "/event/create",
+			templateUrl: "client/event_page/views/event_create.ng.html",
+			controller: "eventCreateCtrl"
+		})
 		.state("event_page", {
 			url: "/event/:eventId",
 			templateUrl: "client/event_page/views/event_page.ng.html",
 			controller: "eventPageCtrl"
 		})
-		.state("event_create", {
-			url: "/event/create",
-			templateUrl: "client/event_age/views/event_create.ng.html",
-			controller: "eventCreateCtrl"
-		})
+		
 
 
 })

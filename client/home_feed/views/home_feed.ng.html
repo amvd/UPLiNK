@@ -3,7 +3,10 @@
 
 	<button ui-sref="team_create">Create Rescue Team</button>
 
+	<button ui-sref="event_create">Schedule Event</button>
+
 	<div id="home-news-hq">
+		<h2>Updates From HQ</h2>
 		<ul>
 			<li ng-repeat="hqUpdate in hqUpdates">
 				<h3>{{ hqUpdate.title }}</h3>
@@ -12,20 +15,23 @@
 	</div>
 
 	<div id="home-leaderboard">
+		<h2>Leaderboard</h2>
 		<ol>
 			<li ng-repeat="leader in leaderboard">{{leader.name}} - {{leader.amount}}</li>
 		</ol>		
 	</div>
 
 	<div id="home-upcoming-events">
+		<h2>Upcoming Events</h2>
 		<ul>
-			<li ng-repeat="event in upcoming">
-				<h3>{{ event.title }}</h3>
+			<li ng-repeat="event in events">
+				<h3>{{ event.date  | date: 'MMMM d, yyyy @ h:mm a' }} - <a href="/event/{{event._id}}">{{ event.title }}</a></h3>
 			</li>
 		</ul>
 	</div>
 
 	<div id="home-team-activity">
+		<h2>Recent Activity</h2>
 		<ul>
 			<li ng-repeat="item in activity">
 				<h3>{{ item.blurb }}</h3>				
@@ -34,6 +40,7 @@
 	</div>
 
 	<div id="home-team-list">
+		<h2>List of Teams</h2>
 		<ul>
 			<li ng-repeat="team in teams"><a href="/team/{{team._id}}">{{team.location}}</a></li>
 		</ul>

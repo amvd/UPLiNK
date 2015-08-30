@@ -4,4 +4,6 @@ angular.module("uplink").controller("homeCtrl", function($scope, $meteor, $rootS
 
 	$scope.teams = $meteor.collection(Teams);
 
+	$scope.events = $meteor.collection(Events);
+
 });
