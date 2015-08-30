@@ -2,7 +2,7 @@
 	<base href="/">
 </head>
 
-<body ng-app="uplink">
+<body ng-app="uplink" id="first-background">
 
 	<div>
 
@@ -54,15 +54,11 @@
 	</nav>
 		
 	</div>
-	
-	<div ui-view></div>
+	<div class="container background">
+		<div ui-view></div>
+	</div>
 
-	<div>
-		Liberty in North Korea
-
-		<ul>
-			<li>Contact</li>
-			<li>Report Bug</li>
-		</ul>
+	<div class="footer container text-center">
+		(c) Liberty in North Korea | Contact | Report Bug
 	</div>
 </body>
