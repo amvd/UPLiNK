@@ -54,6 +54,11 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 			templateUrl: "client/event_page/views/event_page.ng.html",
 			controller: "eventPageCtrl"
 		})
+		.state("data_dash", {
+			url: "/data/dashboard",
+			templateUrl: "client/datacenter/views/data-dash.ng.html",
+			controller: "dataCtrl"
+		})
 		
 
 
