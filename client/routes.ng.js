@@ -34,9 +34,25 @@ angular.module("uplink").config(function($urlRouterProvider, $stateProvider, $lo
 			controller: "teamEditCtrl"
 		})
 		.state("team_page", {
-			url: "team/:teamId",
-			templateUrl: "/client/team_page/views/team_page.ng.html",
+			url: "/team/:teamId",
+			templateUrl: "client/team_page/views/team_page.ng.html",
 			controller: "teamPageCtrl"
+		
+		})
+		.state("event_edit", {
+			url: "/event/:eventId/edit",
+			templateUrl: "client/event_page/views/event_create.ng.html",
+			controller: "eventEditCtrl"
+		})
+		.state("event_page", {
+			url: "/event/:eventId",
+			templateUrl: "client/event_page/views/event_page.ng.html",
+			controller: "eventPageCtrl"
+		})
+		.state("event_create", {
+			url: "/event/create",
+			templateUrl: "client/event_age/views/event_create.ng.html",
+			controller: "eventCreateCtrl"
 		})
 
 

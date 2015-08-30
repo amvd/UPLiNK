@@ -1,14 +1,15 @@
 <img src="#" alt="Team Cover Image">
 
-<nav>
+<div>
 	<ul>
-		<li>About</li>
 		<li>Members</li>
-		<li>Gallery</li>
+		<li ng-if="team.instagram_link"><a href="{{team.instagram_link}}">Instagram</a></li>
 		<li>Events</li>
-		<li class="highlighted">Donate</li>
+		<li class="highlighted"><a href="http://www.libertyinnorthkorea.org/donate/">Donate</a></li>
 	</ul>
-</nav>
+</div>
+
+<a href="/team/{{team._id}}/edit">Edit Page</a>
 
 <!-- progress bar for amount raised -->
 

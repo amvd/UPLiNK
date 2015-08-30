@@ -6,7 +6,9 @@
 	<div>
 		<meteor-include src="loginButtons"></meteor-include>
 		<ul>
+			<li><a href="/home">Home</a></li>
 			<li ng-if="currentUser"><a href="/profile/{{currentUser._id}}">Profile</a></li>
+			<li><a href="/admin/dashboard/">Admin</a></li>
 		</ul>
 	</div>
 	

@@ -2,12 +2,12 @@
 	
 	<p>Cover Image Upload: <input type="file"></p>
 
-	<p>Team Name: <input type="text" ng-model="team.name"></p>
+<!-- 	<p>Team Name: <input type="text" ng-model="team.name"></p> -->
 
 	<p>
 		Team Location
 		<!-- <select ng-model="team.location" ng-options="location in locations"></select> -->
-		If "Other", please enter location: <input type="text">
+		If "Other", please enter location: <input ng-model="team.location" type="text">
 	</p>
 
 	<p>Fundraising Goal: <input type="text" ng-model="team.goal"></p>
@@ -19,8 +19,11 @@
 
 	<p>Twitter Feed Link: <input type="text" ng-model="team.twitter_link"></p>
 
+	<p>Instagram Page Link: <input type="text" ng-model="team.instagram_link"></p>
+
 	<p>Upload More Images: <input type="file"></p>
 
-	<button ng-click="saveTeam(team)">Add Team</button>
+	<button ng-click="saveTeam(team)">Save Team</button>
+	<button ng-click="reset()">Reset</button>
 
 </div>
