@@ -13,6 +13,6 @@ accounts-password
 twbs:bootstrap
 ian:accounts-ui-bootstrap-3
 angularui:angular-google-maps
-cfs:standard-packages
 cfs:filesystem
-cfs:dropbox
+accounts-facebook
+accounts-twitter

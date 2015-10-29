@@ -1,28 +1,33 @@
 <div>
 	
 	<h1>Tell us about yourself.</h1>
+<div class="row">
+	<p class="col-md-3">Rescue Team Location:</p>
+	<select ng-model="user.profile.location" ng-options="team.location as team.location for team in teams"></select>
+</div>
+<div class="row">
+	<p class="col-md-3">Profile Picture Upload: </p><input type="file" ng-model="pic_upload">
+</div>
 
-	<p>
-		Rescue Team Location:
-		<select ng-model="user.profile.location" ng-options="team.location as team.location for team in teams"></select>
-	</p>
-
-	<p>Profile Picture Upload: <input type="file"></p>
-
-	<p>First Name: <input type="text" ng-model="user.profile.first_name"></p>
-
-	<p>Last Name: <input type="text" ng-model="user.profile.last_name"></p>
-
-	<p>Tagline (brief description): <input type="text" ng-model="user.profile.tagline"></p>
-
-	<p>About You</p>
+<div class="row">
+	<p class="col-md-3">First Name: </p><input type="text" ng-model="user.profile.first_name">
+</div>
+<div class="row">
+	<p class="col-md-3">Last Name: </p><input type="text" ng-model="user.profile.last_name">
+</div>
+<div class="row">
+	<p class="col-md-3">Tagline (brief description): </p><input type="text" ng-model="user.profile.tagline">
+</div>
+<div class="row">
+	<p class="col-md-3">About You</p>
 
 	<textarea ng-model="user.profile.about"></textarea>
-
-	<p>Favorite LiNK Experience So Far</p>
+</div>
+<div class="row">
+	<p class="col-md-3">Favorite LiNK Experience So Far</p>
 
 	<textarea ng-model="user.profile.fav_experience"></textarea>
-
+</div>
 	<button ng-click="saveUser()">Save</button>
 
 	<a href="/profile/{{ user._id }}">Back to Profile</a>

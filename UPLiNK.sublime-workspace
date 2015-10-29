@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"tex",
 				"text-align"
 			],
@@ -63,9 +67,25 @@
 			"file": "client/user_profile/controllers/profile_create.ng.js",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 708,
 				"line_ending": "Windows",
 				"name": "angular.module(\"uplink\").config"
+			}
+		},
+		{
+			"file": "server/startup/startup.ng.js",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "model/teams.ng.js",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -80,7 +100,7 @@
 			"file": "client/team_page/controllers/team_page.ng.js",
 			"settings":
 			{
-				"buffer_size": 188,
+				"buffer_size": 217,
 				"line_ending": "Windows"
 			}
 		},
@@ -88,7 +108,7 @@
 			"file": "client/team_page/controllers/team_page_create.ng.js",
 			"settings":
 			{
-				"buffer_size": 820,
+				"buffer_size": 873,
 				"line_ending": "Windows"
 			}
 		},
@@ -97,6 +117,14 @@
 			"settings":
 			{
 				"buffer_size": 191,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/datacenter/controllers/data-dash.ng.js",
+			"settings":
+			{
+				"buffer_size": 1084,
 				"line_ending": "Windows"
 			}
 		},
@@ -112,7 +140,31 @@
 			"file": "client/index.html",
 			"settings":
 			{
-				"buffer_size": 1175,
+				"buffer_size": 1328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".meteor/packages",
+			"settings":
+			{
+				"buffer_size": 457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/datacenter/views/data-dash.ng.html",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/user_profile/controllers/user_profile.ng.js",
+			"settings":
+			{
+				"buffer_size": 299,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,7 +172,7 @@
 			"file": "client/user_profile/views/profile_create.ng.html",
 			"settings":
 			{
-				"buffer_size": 753,
+				"buffer_size": 1078,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +180,7 @@
 			"file": "client/start_screen/views/start_screen.ng.html",
 			"settings":
 			{
-				"buffer_size": 182,
+				"buffer_size": 530,
 				"line_ending": "Windows"
 			}
 		},
@@ -136,7 +188,7 @@
 			"file": "client/event_page/views/event_page.ng.html",
 			"settings":
 			{
-				"buffer_size": 742,
+				"buffer_size": 1529,
 				"line_ending": "Windows"
 			}
 		},
@@ -144,7 +196,7 @@
 			"file": "client/event_page/views/event_create.ng.html",
 			"settings":
 			{
-				"buffer_size": 1018,
+				"buffer_size": 1054,
 				"line_ending": "Windows"
 			}
 		},
@@ -152,7 +204,7 @@
 			"file": "client/team_page/views/team_page.ng.html",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 1343,
 				"line_ending": "Windows"
 			}
 		},
@@ -160,7 +212,7 @@
 			"file": "client/team_page/views/team_page_create.ng.html",
 			"settings":
 			{
-				"buffer_size": 845,
+				"buffer_size": 926,
 				"line_ending": "Windows"
 			}
 		},
@@ -176,7 +228,7 @@
 			"file": "client/lib/app.ng.js",
 			"settings":
 			{
-				"buffer_size": 61,
+				"buffer_size": 81,
 				"line_ending": "Windows"
 			}
 		},
@@ -184,7 +236,7 @@
 			"file": "client/routes.ng.js",
 			"settings":
 			{
-				"buffer_size": 1646,
+				"buffer_size": 1789,
 				"line_ending": "Windows"
 			}
 		},
@@ -192,7 +244,23 @@
 			"file": "client/style.css",
 			"settings":
 			{
-				"buffer_size": 49,
+				"buffer_size": 50,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/start_screen/views/start_screen.css",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/datacenter/styles/data-dash.css",
+			"settings":
+			{
+				"buffer_size": 63,
 				"line_ending": "Windows"
 			}
 		},
@@ -208,7 +276,7 @@
 			"file": "client/event_page/controllers/event_create.ng.js",
 			"settings":
 			{
-				"buffer_size": 792,
+				"buffer_size": 984,
 				"line_ending": "Windows"
 			}
 		},
@@ -216,7 +284,7 @@
 			"file": "client/user_profile/views/user_profile.ng.html",
 			"settings":
 			{
-				"buffer_size": 586,
+				"buffer_size": 1239,
 				"line_ending": "Windows"
 			}
 		}
@@ -284,6 +352,9 @@
 		"/C/SYNC/GitHub/UPLiNK/client/admin_dashboard",
 		"/C/SYNC/GitHub/UPLiNK/client/admin_dashboard/controllers",
 		"/C/SYNC/GitHub/UPLiNK/client/admin_dashboard/views",
+		"/C/SYNC/GitHub/UPLiNK/client/datacenter",
+		"/C/SYNC/GitHub/UPLiNK/client/datacenter/controllers",
+		"/C/SYNC/GitHub/UPLiNK/client/datacenter/views",
 		"/C/SYNC/GitHub/UPLiNK/client/event_page",
 		"/C/SYNC/GitHub/UPLiNK/client/event_page/controllers",
 		"/C/SYNC/GitHub/UPLiNK/client/event_page/views",
@@ -301,12 +372,14 @@
 		"/C/SYNC/GitHub/UPLiNK/client/user_profile/controllers",
 		"/C/SYNC/GitHub/UPLiNK/client/user_profile/views",
 		"/C/SYNC/GitHub/UPLiNK/model",
-		"/C/SYNC/GitHub/UPLiNK/server"
+		"/C/SYNC/GitHub/UPLiNK/server",
+		"/C/SYNC/GitHub/UPLiNK/server/startup"
 	],
 	"file_history":
 	[
-		"/C/SYNC/GitHub/UPLiNK/model/events.ng.js",
+		"/C/SYNC/GitHub/UPLiNK/model/images.ng.js",
 		"/C/SYNC/GitHub/UPLiNK/model/users.ng.js",
+		"/C/SYNC/GitHub/UPLiNK/model/events.ng.js",
 		"/C/SYNC/GitHub/UPLiNK/client/team_page/controllers/team_page_create.ng.js",
 		"/C/SYNC/GitHub/UPLiNK/client/admin_dashboard/views/admin_dashboard.ng.html",
 		"/C/SYNC/GitHub/UPLiNK/client/team_page/controllers/team_page_edit.ng.js",
@@ -431,8 +504,7 @@
 		"/C/SYNC/GitHub/JAMM/application/controllers/login.php",
 		"/C/SYNC/GitHub/JAMM/application/views/partials/orders.php",
 		"/C/SYNC/GitHub/JAMM/application/views/chef_reviews_this_week.php",
-		"/C/SYNC/GitHub/JAMM/index.html",
-		"/C/SYNC/GitHub/JAMM/application/controllers/main.php"
+		"/C/SYNC/GitHub/JAMM/index.html"
 	],
 	"find":
 	{
@@ -450,6 +522,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h4",
+			"div",
+			"h3",
+			"div",
+			"h2",
+			"h1",
+			"h3",
+			"button",
 			"leaderboard",
 			"h2",
 			"nav",
@@ -522,7 +602,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -531,92 +611,37 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 708,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								200
+								413,
+								413
 							]
 						],
 						"settings":
 						{
 							"auto_name": "angular.module(\"uplink\").config",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "client/home_feed/controllers/home_feed.ng.js",
+					"file": "server/startup/startup.ng.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/team_page/controllers/team_page.ng.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								180,
-								180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/team_page/controllers/team_page_create.ng.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 820,
+						"buffer_size": 614,
 						"regions":
 						{
 						},
@@ -629,6 +654,121 @@
 						],
 						"settings":
 						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "model/teams.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/home_feed/controllers/home_feed.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/team_page/controllers/team_page.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/team_page/controllers/team_page_create.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -636,11 +776,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "client/start_screen/controllers/startCtrl.ng.js",
 					"semi_transient": false,
 					"settings":
@@ -664,11 +804,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
+					"file": "client/datacenter/controllers/data-dash.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "client/admin_dashboard/controllers/admin_dashboard.ng.js",
 					"semi_transient": false,
 					"settings":
@@ -680,8 +848,8 @@
 						"selection":
 						[
 							[
-								76,
-								76
+								80,
+								80
 							]
 						],
 						"settings":
@@ -692,205 +860,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 21,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "client/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1175,
+						"buffer_size": 1328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								1112,
+								1112
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "client/user_profile/views/profile_create.ng.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "client/start_screen/views/start_screen.ng.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								182,
-								182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "client/event_page/views/event_page.ng.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 742,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								161
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "client/event_page/views/event_create.ng.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "client/team_page/views/team_page.ng.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 509.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "client/team_page/views/team_page_create.ng.html",
-					"semi_transient": false,
+					"buffer": 10,
+					"file": ".meteor/packages",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 845,
+						"buffer_size": 457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -900,7 +927,243 @@
 					"type": "text"
 				},
 				{
+					"buffer": 11,
+					"file": "client/datacenter/views/data-dash.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "client/user_profile/controllers/user_profile.ng.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
 					"buffer": 13,
+					"file": "client/user_profile/views/profile_create.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "client/start_screen/views/start_screen.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							],
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "client/event_page/views/event_page.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								48
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "client/event_page/views/event_create.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1045,
+								1045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "client/team_page/views/team_page.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "client/team_page/views/team_page_create.ng.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
 					"file": "client/home_feed/views/home_feed.ng.html",
 					"semi_transient": false,
 					"settings":
@@ -912,19 +1175,20 @@
 						"selection":
 						[
 							[
-								673,
-								673
+								1778,
+								1778
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 365.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 22,
 					"type": "text"
 				}
 			]
@@ -934,20 +1198,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 14,
+					"buffer": 20,
 					"file": "client/lib/app.ng.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 81,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								61
+								81,
+								81
 							]
 						],
 						"settings":
@@ -958,52 +1222,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 21,
 					"file": "client/routes.ng.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1646,
+						"buffer_size": 1789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1633,
-								1633
+								1750,
+								1750
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 814.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 22,
 					"file": "client/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 50,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								50,
+								50
 							]
 						],
 						"settings":
@@ -1015,7 +1280,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "client/start_screen/views/start_screen.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "client/datacenter/styles/data-dash.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
 					"type": "text"
 				}
 			]
@@ -1025,7 +1347,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 17,
+					"buffer": 25,
 					"file": "client/event_page/controllers/event_page.ng.js",
 					"semi_transient": false,
 					"settings":
@@ -1049,63 +1371,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 26,
 					"file": "client/event_page/controllers/event_create.ng.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 792,
+						"buffer_size": 984,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								121,
+								121
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 27,
 					"file": "client/user_profile/views/user_profile.ng.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 1239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								134,
+								134
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1204,7 +1528,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 2,
 	"settings":
 	{
 	},
